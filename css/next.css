@@ -1,0 +1,180 @@
+h1{
+	color:cyan;
+}
+
+mark{
+	color:red;
+}
+
+#main{
+width:70px;
+height:250px;
+border: 1px solid black;
+background-color: lightgray;
+display:flex;
+flex-wrap: wrap;
+align-content: center;
+}
+
+.one{
+width:100px;
+height:70px;
+background-color: red;
+}
+
+.two{
+width:100px;
+height:70px;
+background-color: green;
+}
+
+.three{
+width:170px;
+height:70px;
+background-color: blue;
+}
+
+.container{
+	width:100px;
+	border:3px solid black;
+	background-color: none;
+	padding:10px;
+	display:flex;
+	
+
+
+
+}
+
+.ekk{
+	width:150px;
+	height:100px;
+	background-color: red;
+
+}
+
+.dui{
+	width:150px;
+	height:100px;
+	background-color: green;
+
+}
+
+.teen{
+	width:150px;
+	height:100px;
+	background-color: blue;
+
+}
+
+.char{
+    width:150px;
+	height:100px;
+	background-color: orange;
+
+}
+
+
+
+
+.mainbox{
+	width:50%;
+	height:300px;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+.mango{
+	height: 200px;
+	background-color: greenyellow;
+	display:flex;
+	align-items: center;
+}
+.jackfruit{
+	height: 200px;
+	background-color: yellow;
+	display:flex;
+	align-items: center;
+}
+.banana{
+	height: 200px;
+	background-color: #cfcf83;
+	display:flex;
+	align-items: center;
+}
+
+#basebox{
+	width:220px;
+	height:300px;
+	border:3px solid black;
+	display:flex;
+	align-items:flex-start;
+}
+#basebox div{
+	flex:1;
+}
+#b1{background-color: red;}
+#b2{
+	background-color: green;
+	align-self: center;
+}
+#b3{background-color: blue;}
+
+.anime{
+	width:200px;
+	height:200px;
+	background-color: red;
+	position:relative;
+	animation:anime 3s infinite;
+	animation-delay: -1s;
+}
+@keyframes anime{
+	from{left:500px;}
+	to{left:1000px}
+}
+.anime1{
+	width:75px;
+	height:75px;
+	background-color: green;
+	position:relative;
+	animation:anime1 infinite;
+	animation-duration: 4s;
+
+}
+@keyframes anime1{
+	from{top:0px}
+	to{top:75px}
+}
+.anime2{
+	width:150px;
+	height:150px;
+	background-color: red;
+	position:relative;
+	animation:anime2 infinite;
+	animation-duration:5s;
+	animation-delay:2s;
+	animation-direction: alternate;
+
+}
+@keyframes anime2{
+	0%{background: red; left:0px; top:0px}
+	25%{background: yellow; left:200px; top:0px}
+	50%{background: green; left:200px; top:200px}
+	75%{background: orange; left:0px; top:200px}
+	100%{background: blue; left:0px; top:0px}
+}
+
+#circle{
+	width:100px;
+	height:100px;
+	background-color: red;
+	margin-top: 350px;
+	position:relative;
+	animation:circle 3s infinite;
+}
+
+@keyframes circle{
+	from{left:0px; border-radius:100%;}
+	to{left:100px;background: blue; border-radius:100%;}
+}
